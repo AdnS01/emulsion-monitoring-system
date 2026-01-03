@@ -1,0 +1,28 @@
+/* Bordered form */
+form {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background-color: rgba(247, 248, 249, 1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   }
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+   }
+/* Full-width inputs */
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color : rgba(70, 70, 70, 1);
+   }
+input[type=submit]:hover {
+    background-color: white;
+    color: rgba(100, 100, 100, 1);
+    border: 1px solid rgba(100, 100, 100, 1);
+   }
